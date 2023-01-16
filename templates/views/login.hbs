@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <title>Slide Navbar</title>
+    {{!-- <link rel="stylesheet" type="text/css" href="../../assets/login.css" /> --}}
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    {{>navbar}}
+	<br><br>
+	<form action="/login" method="post">
+		<table border="1" align="center" width="380" height="200">
+			<tr>
+				<th colspan="2" align="center">
+					<h1>Login Form</h1>
+				</th>
+			</tr>
+
+			<tr>
+				<td>Enter Your Username :</td>
+				<td>
+					<input type="text" name="txtuname" id="">
+				</td>
+			</tr>
+
+			<tr>
+				<td>Enter Password1 : </td>
+				<td>
+
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+					<input type="submit" name="btnsubmit" id="">
+					<input type="reset" name="btnreset" id="">
+				</td>
+			</tr>
+		</table>
+	</form>
+  </body>
+</html>
