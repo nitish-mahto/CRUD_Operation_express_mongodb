@@ -8,7 +8,7 @@ import express from "express";
 import bcrypt from "bcryptjs";
 var salt = bcrypt.genSaltSync(10);
 import hbs from "hbs";
-const app = express();
+const app = express()
 const static_path = "/Volumes/Nitish/Express_js/Auth_Website/templates/";
 const templates_path =
   "/Volumes/Nitish/Express_js/Auth_Website/templates/views";
